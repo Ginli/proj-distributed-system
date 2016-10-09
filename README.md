@@ -1,1 +1,1 @@
-# -course-distributed-system
+# course-distributed-system
