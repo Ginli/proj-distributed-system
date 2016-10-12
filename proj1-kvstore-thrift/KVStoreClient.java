@@ -91,6 +91,10 @@ public class KVStoreClient {
     }
 
     private static void resultPrinter(Result result) {
+        if (result == null) {
+            System.err.println("Usage: KVStoreClient -server <host:port> -CMD_NAME <key w/ val w/ outputFile>");
+            return ;
+        }
         int errorCode = result.getError().getValue();
         if (errorCode == 0) {
             System.out.println("0");
