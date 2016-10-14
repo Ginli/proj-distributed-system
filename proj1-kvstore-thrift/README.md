@@ -5,8 +5,10 @@ Compilers:
 - Python 2.7
 
 Run Instructions:
+
 1. start a new IntelliJ Maven project
 2. add libraries as Maven dependencies, mainly those two
+
   ```
   <dependency>
       <groupId>org.apache.thrift</groupId>
@@ -21,7 +23,8 @@ Run Instructions:
   ```
 3. add kvstore.thrift file to /PROJ_ROOT_PATH/src/main/java/
 4. generate Thrift files
-  ```
+
+  ```sh
   thrift -r --gen java kvstore.thrift
   thrift -r --gen py kvstore.thrift
   ```
@@ -29,19 +32,20 @@ Run Instructions:
 5. add *.java to /PROJ_ROOT_PATH/src/main/java/gen_java/kvstore/
 6. start server in IntelliJ
 7. test Java client and Python client as
-  ```
+
+  ```sh
   java PARAMETERS gen_java.kvstore.KVStoreClient -server 127.0.0.1:9090 -set key999 val999
   java PARAMETERS gen_java.kvstore.KVStoreClient -server 127.0.0.1:9090 -get key999 out.txt
   java PARAMETERS gen_java.kvstore.KVStoreClient -server 127.0.0.1:9090 -del key999
   ```
-  ```
+  ```sh
   python KVStoreClient.py -server 127.0.0.1:9090 -set key999 val999
   python KVStoreClient.py -server 127.0.0.1:9090 -get key999 out.txt
   python KVStoreClient.py -server 127.0.0.1:9090 -del key999
   ```
   *when testing Java client, copy the detailed parameters inluding class path in IntelliJ to terminal to replace the "PARAMETERS" then test following the usage
 
-*key-value db is implemented as a HashMap as <String, String>, e.g. ("key1": "value1").
+*key-value db here is implemented as a HashMap as <String, String>, e.g. ("key1": "value1").
 
 ![img_java_server_running](./img_java_server_running.png)
 
