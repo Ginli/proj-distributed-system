@@ -48,8 +48,8 @@ Run Instructions:
 
 *key-value db here is implemented as a HashMap as <String, String>, e.g. ("key1": "value1").
 
-![img_java_server_running](./img_java_server_running.png)
+![img_java_server_running](proj1-kvstore-thrift/img_java_server_running.png)
 
-![img_java_client_set](./img_java_client_set.png)
+![img_java_client_set](proj1-kvstore-thrift/img_java_client_set.png)
 
-![img_python_client_get](./img_python_client_get.png)
+![img_python_client_get](proj1-kvstore-thrift/img_python_client_get.png)
