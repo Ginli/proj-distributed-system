@@ -9,7 +9,11 @@ How it works:
 
 2. Parse Log Files
 
-    how...
+    Created [LogParser](https://github.com/YuBPan/proj-distributed-system/blob/master/proj2-consistency-test/src/main/java/util/LogParser.java) class in util which can parse, analyze multiple generated log files and return a list of [OperationInterval](https://github.com/YuBPan/proj-distributed-system/blob/master/proj2-consistency-test/src/main/java/util/OperationInterval.java) objects. 
+    
+    To start parsing log files, create new LogParser instance and call startParsingLogs(path, file number). "path" argument is the directory which contains log files. "file number" is the amount of log files.
+    
+    When there are error messages in log files, above parse method will throw a [ConnectionErrorException](https://github.com/YuBPan/proj-distributed-system/blob/master/proj2-consistency-test/src/main/java/util/exceptions/ConnectionErrorException.java) which indicates there might be error when getting results from server.
 
 3. Generate Graph
 
