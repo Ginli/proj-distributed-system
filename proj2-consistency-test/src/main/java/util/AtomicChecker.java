@@ -1,12 +1,9 @@
-package main.java.algorithm;
+package main.java.util;
 
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * Created by raylee on 12/12/16.
- */
 public class AtomicChecker {
     private static boolean flag = false;
     private static Set<OperationInterval> checked = new HashSet<>();
