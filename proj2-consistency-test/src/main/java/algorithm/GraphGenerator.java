@@ -100,7 +100,7 @@ public class GraphGenerator {
         return false;
     }
 
-    public static void print(Map<OperationInterval, HashSet<OperationInterval>> map) {
+    private static void print(Map<OperationInterval, HashSet<OperationInterval>> map) {
         for (OperationInterval o : map.keySet()) {
             System.out.printf("[%s - %s] -> ", o.operation, o.getValue());
             for (OperationInterval oo : map.get(o)) {
