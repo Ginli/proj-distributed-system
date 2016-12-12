@@ -9,7 +9,7 @@ How it works:
 
 2. Parse Log Files
 
-    Created [LogParser](proj-distributed-system/proj2-consistency-test/src/main/java/util/LogParser.java) class in util which can parse, analyze multiple generated log files and return a list of [OperationInterval](proj-distributed-system/proj2-consistency-test/src/main/java/util/OperationInterval.java) objects. 
+    Created [LogParser](https://github.com/YuBPan/proj-distributed-system/blob/master/proj2-consistency-test/src/main/java/util/LogParser.java) class in util which can parse, analyze multiple generated log files and return a list of [OperationInterval](proj-distributed-system/proj2-consistency-test/src/main/java/util/OperationInterval.java) objects. 
     
     To start parsing log files, create new LogParser instance and call startParsingLogs(path, file number). "path" argument is the directory which contains log files. "file number" is the amount of log files.
     
