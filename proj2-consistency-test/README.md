@@ -17,7 +17,7 @@ How it works:
 
    Algorithms to generate edges:
 
-   1. Generate time edges. From the <a href="https://www.usenix.org/legacy/event/hotdep10/tech/full_papers/Anderson.pdf">paper</a>. Time complexity: *O*(nlogn)
+   1. Generate time edges. From the <a href="https://www.usenix.org/legacy/event/hotdep10/tech/full_papers/Anderson.pdf">paper</a>. Time complexity: *O(nlogn)*
 
       ```
       A := all intervals in increasing order of start time; 
@@ -53,7 +53,7 @@ How it works:
       			add edge b → a's dictating write
       ```
 
-   Total time complexity: $O(nlog+n^2+n^3)=O(n^3)$
+   Total time complexity: *O(nlogn)+O(n<sup>2</sup>)+O(n<sup>3</sup>)=O(n<sup>3</sup>)*
 
 4. Check Atomicity
 
