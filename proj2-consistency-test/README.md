@@ -17,7 +17,7 @@ How it works:
 
    Algorithms to generate edges:
 
-   1. Generate time edges. From the <a href="https://www.usenix.org/legacy/event/hotdep10/tech/full_papers/Anderson.pdf">paper</a>. Time complexity: $O(nlogn)$
+   1. Generate time edges. From the <a href="https://www.usenix.org/legacy/event/hotdep10/tech/full_papers/Anderson.pdf">paper</a>. Time complexity: *O*(nlogn)
 
       ```
       A := all intervals in increasing order of start time; 
@@ -31,7 +31,7 @@ How it works:
       		else break;
       ```
 
-   2. Generate data edges. Time complexity: $O(n^2)$
+   2. Generate data edges. Time complexity: *O(n<sup>2</sup>)*
 
       ```
       A := all intervals that is a read
@@ -42,7 +42,7 @@ How it works:
       			add edge b → a
       ```
 
-   3. Generate hybrid edges. From the <a href="https://www.usenix.org/legacy/event/hotdep10/tech/full_papers/Anderson.pdf">paper</a>. Time complexity: $O(n^3)$
+   3. Generate hybrid edges. From the <a href="https://www.usenix.org/legacy/event/hotdep10/tech/full_papers/Anderson.pdf">paper</a>. Time complexity: *O(n<sup>3</sup>)*
 
       ```
       A := all intervals that is a read
