@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="proj2-consistency-test" target="1.5" />
+      <module name="proj2-consistency-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

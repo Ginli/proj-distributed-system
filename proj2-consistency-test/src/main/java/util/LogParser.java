@@ -30,6 +30,7 @@ public class LogParser {
 	}
 	
 	public List<OperationInterval> startParsingLogs(String path, int logNum) throws IOException, ConnectionErrorException {
+		System.out.println("Parsing logs...");
 		if (path == null)
 			return new LinkedList<OperationInterval>();
 		List<OperationInterval> parsedResult = new LinkedList<>();

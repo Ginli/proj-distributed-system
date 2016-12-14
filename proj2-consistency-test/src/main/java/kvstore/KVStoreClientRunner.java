@@ -14,6 +14,7 @@ public class KVStoreClientRunner implements Runnable {
     private String[][] argsPool;
     private Map<Integer, String> valMap;
     private int[] valMapRange;
+    private final static String KEY_NAME = "iamakey16";
 
     /*
         argsPoolSize << valMapRangeArr[1]-[0]
@@ -48,12 +49,12 @@ public class KVStoreClientRunner implements Runnable {
         argsPool = new String[poolSize][];
         int valIndex = valMapRange[0];
         for(int i = 0; i < poolSize; i++) {
-            argsPool[i] = i % 2 == 0 ? new String[]{"-get", "key1"} : new String[]{"-set", "key1", valMap.get(++valIndex)};     // why ++ first? first val is used for initialization
+            argsPool[i] = i % 2 == 0 ? new String[]{"-get", KEY_NAME} : new String[]{"-set", KEY_NAME, valMap.get(++valIndex)};     // why ++ first? first val is used for initialization
         }
     }
 
     private void initAllKeys(KVStoreClient kvStoreClient) {
-        kvStoreClient.cmdApply(kvStoreClient.parseCmd(new String[]{"-set", "key1", valMap.get(valMapRange[0])}), -1);
+        kvStoreClient.cmdApply(kvStoreClient.parseCmd(new String[]{"-set", KEY_NAME, valMap.get(valMapRange[0])}), -1);
     }
 }
 

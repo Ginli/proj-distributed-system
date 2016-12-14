@@ -1,4 +1,6 @@
-package main.java.util;
+package util;
+
+import util.OperationInterval;
 
 import java.util.*;
 
@@ -8,6 +10,7 @@ import java.util.*;
 public class GraphGenerator {
 
     public static Map<OperationInterval, HashSet<OperationInterval>> generateGraph(List<OperationInterval> nodes) {
+        System.out.println("Generating graph...");
         Map<OperationInterval, HashSet<OperationInterval>> map = new HashMap<>();
 
         List<OperationInterval> increase = new ArrayList<>(nodes);
@@ -26,8 +29,8 @@ public class GraphGenerator {
                 if (!map.containsKey(b)) {
                     map.put(b, new HashSet<>());
                 }
-                if (b.getEndTime() < a.getStartTime()) {
-                    if (t < b.getEndTime()) {
+                if (b.getEndTime() <= a.getStartTime()) {
+                    if (t <= b.getEndTime()) {
 //                        System.out.printf("~~~~Add Edge~~~~%n[%s, %s, %d - %d] -> [%s, %s, %d - %d]%n", b.operation, b.getValue(), b.getStartTime(), b.getEndTime(), a.operation, a.getValue(), a.getStartTime(), a.getEndTime());
                         successors.put(a, b);
                         map.get(b).add(a);
@@ -76,8 +79,8 @@ public class GraphGenerator {
             }
         }
 
-        System.out.printf("-------All edges-------%n");
-        print(map);
+//        System.out.printf("-------All edges-------%n");
+//        print(map);
 
         return map;
     }

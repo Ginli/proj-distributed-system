@@ -25,7 +25,7 @@ public class KVStoreClient {
     private static final int TIMEOUT = 3000;
     private TTransport transport;                       // NOT static
     private KVStore.Client client;                      // NOT static
-    private static Options options;
+    private static Options options;                            // NOT static
     private Logger logger;                              // NOT static
 
 //    public static void main(String[] args) {

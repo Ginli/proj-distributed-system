@@ -1,7 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9125589-6836-4acd-bd05-fb169ec4a4d3" name="Default" comment="" />
+    <list default="true" id="c9125589-6836-4acd-bd05-fb169ec4a4d3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/CycleInDirectedGraph.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/log_1481521436490/client_0.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/log_1481521436490/client_1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/log_1481521436490/client_2.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/log_1481521436490/client_3.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/log_1481521436490/client_4.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/log_1481521436490/server.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/ErrorCode.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/ErrorCode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$1.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncClient$Factory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncClient$Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncClient$kvdelete_call.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncClient$kvdelete_call.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncClient$kvget_call.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncClient$kvget_call.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncClient$kvset_call.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncClient$kvset_call.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncClient.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncIface.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncIface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncProcessor$kvdelete$1.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncProcessor$kvdelete$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncProcessor$kvdelete.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncProcessor$kvdelete.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncProcessor$kvget$1.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncProcessor$kvget$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncProcessor$kvget.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncProcessor$kvget.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncProcessor$kvset$1.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncProcessor$kvset$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncProcessor$kvset.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncProcessor$kvset.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncProcessor.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$AsyncProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$Client$Factory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$Client$Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$Client.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$Iface.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$Iface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$Processor$kvdelete.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$Processor$kvdelete.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$Processor$kvget.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$Processor$kvget.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$Processor$kvset.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$Processor$kvset.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$Processor.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$Processor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_args$_Fields.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_args$_Fields.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_args$kvdelete_argsStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_args$kvdelete_argsStandardScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_args$kvdelete_argsStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_args$kvdelete_argsStandardSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_args$kvdelete_argsTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_args$kvdelete_argsTupleScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_args$kvdelete_argsTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_args$kvdelete_argsTupleSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_args.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_args.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_result$_Fields.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_result$_Fields.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_result$kvdelete_resultStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_result$kvdelete_resultStandardScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_result$kvdelete_resultStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_result$kvdelete_resultStandardSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_result$kvdelete_resultTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_result$kvdelete_resultTupleScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_result$kvdelete_resultTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_result$kvdelete_resultTupleSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_result.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvdelete_result.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_args$_Fields.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_args$_Fields.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_args$kvget_argsStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_args$kvget_argsStandardScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_args$kvget_argsStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_args$kvget_argsStandardSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_args$kvget_argsTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_args$kvget_argsTupleScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_args$kvget_argsTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_args$kvget_argsTupleSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_args.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_args.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_result$_Fields.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_result$_Fields.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_result$kvget_resultStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_result$kvget_resultStandardScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_result$kvget_resultStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_result$kvget_resultStandardSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_result$kvget_resultTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_result$kvget_resultTupleScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_result$kvget_resultTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_result$kvget_resultTupleSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_result.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvget_result.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_args$_Fields.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_args$_Fields.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_args$kvset_argsStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_args$kvset_argsStandardScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_args$kvset_argsStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_args$kvset_argsStandardSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_args$kvset_argsTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_args$kvset_argsTupleScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_args$kvset_argsTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_args$kvset_argsTupleSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_args.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_args.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_result$_Fields.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_result$_Fields.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_result$kvset_resultStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_result$kvset_resultStandardScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_result$kvset_resultStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_result$kvset_resultStandardSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_result$kvset_resultTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_result$kvset_resultTupleScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_result$kvset_resultTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_result$kvset_resultTupleSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_result.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore$kvset_result.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStore.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStoreClient.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStoreClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStoreClientRunner.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStoreClientRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStoreConsistencyTester.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStoreConsistencyTester.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStoreImpl.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStoreImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStoreImplBuggy.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStoreImplBuggy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStoreServer.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStoreServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/KVStoreServerBuggy.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/KVStoreServerBuggy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/Result$1.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/Result$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/Result$ResultStandardScheme.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/Result$ResultStandardScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/Result$ResultStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/Result$ResultStandardSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/Result$ResultTupleScheme.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/Result$ResultTupleScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/Result$ResultTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/Result$ResultTupleSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/Result$_Fields.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/Result$_Fields.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/kvstore/Result.class" afterPath="$PROJECT_DIR$/target/classes/kvstore/Result.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proj2-consistency-test.iml" afterPath="$PROJECT_DIR$/proj2-consistency-test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kvstore/KVStoreClient.java" afterPath="$PROJECT_DIR$/src/main/java/kvstore/KVStoreClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kvstore/KVStoreClientRunner.java" afterPath="$PROJECT_DIR$/src/main/java/kvstore/KVStoreClientRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kvstore/KVStoreConsistencyTester.java" afterPath="$PROJECT_DIR$/src/main/java/kvstore/KVStoreConsistencyTester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/AtomicChecker.java" afterPath="$PROJECT_DIR$/src/main/java/util/AtomicChecker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/GraphGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/util/GraphGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/LogParser.java" afterPath="$PROJECT_DIR$/src/main/java/util/LogParser.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +113,20 @@
       <file leaf-file-name="KVStoreClientRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreClientRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="480">
+              <caret line="32" column="15" lean-forward="false" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KVStoreConsistencyTester.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreConsistencyTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,40 +137,8 @@
       <file leaf-file-name="KVStoreClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1845">
-              <caret line="138" column="14" lean-forward="false" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KVStoreConsistencyTester.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreConsistencyTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17554">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1481522048000" expanded="true" signature="56250:56450" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Project_Default.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -115,18 +185,23 @@
         <option value="$PROJECT_DIR$/src/main/log/client_1.log" />
         <option value="$PROJECT_DIR$/src/main/log/client_2.log" />
         <option value="$PROJECT_DIR$/src/main/java/kvstore/KVStoreImpl.java" />
-        <option value="$PROJECT_DIR$/proj2-consistency-test.iml" />
         <option value="$PROJECT_DIR$/src/main/java/kvstore/KVStoreImplBug.java" />
         <option value="$PROJECT_DIR$/src/main/java/kvstore/KVStoreServerBug.java" />
         <option value="$PROJECT_DIR$/src/main/java/kvstore/KVStoreServerBuggy.java" />
         <option value="$PROJECT_DIR$/src/main/java/kvstore/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/kvstore/RunnerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/kvstore/PrintDemo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/proj2-consistency-test.iml" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Checker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/CycleInDirectedGraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/GraphGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/AtomicChecker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/LogParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/kvstore/KVStoreClientRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/kvstore/KVStoreClient.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/kvstore/KVStoreConsistencyTester.java" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -165,8 +240,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -176,6 +249,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="proj2-consistency-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj2-consistency-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj2-consistency-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -203,26 +290,128 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj2-consistency-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj2-consistency-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj2-consistency-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj2-consistency-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exceptions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj2-consistency-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj2-consistency-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj2-consistency-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proj2-consistency-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="FullScreen" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -721,8 +910,8 @@
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.KVStoreConsistencyTester" />
         <item index="1" class="java.lang.String" itemvalue="Application.KVStoreServer" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RunnerTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.KVStoreServerBuggy" />
+        <item index="2" class="java.lang.String" itemvalue="Application.KVStoreServerBuggy" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RunnerTest" />
         <item index="4" class="java.lang.String" itemvalue="Application.KVStoreClient" />
       </list>
     </recent_temporary>
@@ -739,11 +928,12 @@
       <updated>1481315560539</updated>
       <workItem from="1481315562222" duration="23768000" />
       <workItem from="1481485025504" duration="26146000" />
+      <workItem from="1481683771185" duration="8005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49914000" />
+    <option name="totallyTimeSpent" value="57919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -759,14 +949,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29726028" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24657534" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19452055" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3178082" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30210015" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29402262" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -778,6 +967,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -815,6 +1005,50 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreClientRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="138" column="14" lean-forward="false" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreConsistencyTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -829,11 +1063,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1365">
           <caret line="104" column="30" lean-forward="false" selection-start-line="104" selection-start-column="30" selection-end-line="104" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3850#3851#0" expanded="false" />
-            <element signature="e#3883#3884#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -864,19 +1094,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/TestThread.java" />
     <entry file="file://$PROJECT_DIR$/src/main/log/logging.log" />
     <entry file="file://$PROJECT_DIR$/client_2.log" />
-    <entry file="file://$PROJECT_DIR$/src/main/log/server.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/log/server.log" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.9.3/libthrift-0.9.3.jar!/org/apache/thrift/transport/TSocket.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,7 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,7 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,7 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,40 +1131,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/log/client_0.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/log/client_1.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/log/client_2.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="90" lean-forward="true" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/log/client_0.log" />
+    <entry file="file://$PROJECT_DIR$/src/main/log/client_1.log" />
+    <entry file="file://$PROJECT_DIR$/src/main/log/client_2.log" />
     <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -956,77 +1144,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj2-consistency-test.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="64" lean-forward="false" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreServerBuggy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/RunnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/PrintDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreClientRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="138" column="14" lean-forward="false" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/RunnerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/Runner.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/PrintDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,29 +1164,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreConsistencyTester.java">
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj2-consistency-test.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="64" lean-forward="false" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17554">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/OperationInterval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreServerBuggy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/CycleInDirectedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="56" column="19" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
           <folding>
-            <marker date="1481522048000" expanded="true" signature="56250:56450" ph="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/LogParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/AtomicChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/GraphGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreClientRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="15" lean-forward="false" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kvstore/KVStoreConsistencyTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

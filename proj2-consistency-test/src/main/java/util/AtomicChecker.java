@@ -1,4 +1,6 @@
-package main.java.util;
+package util;
+
+import util.OperationInterval;
 
 import java.util.HashSet;
 import java.util.Map;
@@ -9,6 +11,7 @@ public class AtomicChecker {
     private static Set<OperationInterval> checked = new HashSet<>();
 
     public static int check(Map<OperationInterval, HashSet<OperationInterval>> map) {
+        System.out.println("Checking atomicity...");
         return checkCircle(map) ? 1 : 0;
     }
 

@@ -1,7 +1,10 @@
 .DS_Store
 
-# Java Class Files
+# Java class files
 *.class
 
 # User-specific stuff:
-.idea/workspace.xml
+proj2-consistency-test/.idea/workspace.xml
+
+# Target dir
+proj2-consistency-test/target/*
