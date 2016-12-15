@@ -29,8 +29,8 @@ public class GraphGenerator {
                 if (!map.containsKey(b)) {
                     map.put(b, new HashSet<>());
                 }
-                if (b.getEndTime() <= a.getStartTime()) {
-                    if (t <= b.getEndTime()) {
+                if (b.getEndTime() < a.getStartTime()) {
+                    if (t < b.getEndTime()) {
 //                        System.out.printf("~~~~Add Edge~~~~%n[%s, %s, %d - %d] -> [%s, %s, %d - %d]%n", b.operation, b.getValue(), b.getStartTime(), b.getEndTime(), a.operation, a.getValue(), a.getStartTime(), a.getEndTime());
                         successors.put(a, b);
                         map.get(b).add(a);
