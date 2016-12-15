@@ -78,6 +78,9 @@ Language:
 Compilers:
 - JDK 8
 
+Build Manager:
+- Apache Maven 3.3.9
+
 Maven Dependencies:
 ```
 <dependencies>
