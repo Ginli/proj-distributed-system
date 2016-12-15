@@ -9,11 +9,11 @@ How it works:
 
 2. Parse Log Files
 
-    Create [LogParser](https://github.com/YuBPan/proj-distributed-system/blob/master/proj2-consistency-test/src/main/java/util/LogParser.java) class in util which can parse, then analyze multiple generated log files and return a list of [OperationInterval](https://github.com/YuBPan/proj-distributed-system/blob/master/proj2-consistency-test/src/main/java/util/OperationInterval.java) objects.
+    Create LogParser class in util which can parse, then analyze multiple generated log files and return a list of OperationInterval objects.
 
     To start parsing log files, create new LogParser instance and call startParsingLogs(path, file number). The "path" argument is the directory which contains log files. The "file number" is the amount of log files.
 
-    When there are error messages in log files, the above parse method will throw a [ConnectionErrorException](https://github.com/YuBPan/proj-distributed-system/blob/master/proj2-consistency-test/src/main/java/util/exceptions/ConnectionErrorException.java) which indicates there might be error when getting results from server.
+    When there are error messages in log files, the above parse method will throw a ConnectionErrorException which indicates there might be error when getting results from server.
 
 3. Generate Graph
 
@@ -101,7 +101,27 @@ Maven Dependencies:
 
 Run Instructions:
 ```sh
-$ ./KVStoreConsistencyTester -server 127.0.0.1:9090
+$ git clone https://github.com/YuBPan/proj-distributed-system.git
+$ cd proj-distributed-system/proj2-consistency-test/
+$ mvn package
+[INFO] Scanning for projects...
+[INFO]
+...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.907 s
+[INFO] Finished at: 2016-12-14T22:14:53-05:00
+[INFO] Final Memory: 25M/285M
+[INFO] ------------------------------------------------------------------------
+$ java -cp ./target/distributedsystem-project2-consistency-test-1.0-SNAPSHOT-jar-with-dependencies.jar  kvstore.KVStoreConsistencyTester -server 127.0.0.1:9090
+2016-12-14 22:15:39:152 INFO  client_11:154 - cmdIndex=-1, cmd=set, timeType=start, key=iamakey16, val=0
+...
+2016-12-14 22:15:42:124 INFO  client_13:154 - cmdIndex=29, cmd=get, timeType=finish, key=iamakey16, val=666
+Parsing logs...
+Generating graph...
+Checking atomicity...
+Error code:	0
 ```
 
 Reference:<br>
