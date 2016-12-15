@@ -69,8 +69,9 @@ How it works:
     1 | There were consistency errors.
     2 | Test was inconclusive.
 
-OS:
+Tested OS:
 - macOS 10.12.1
+- Windows 10
 
 Language:
 - Java 8
@@ -126,7 +127,7 @@ Generating graph...
 Checking atomicity...
 Error code:	0
 
-$ java -cp ./target/distributedsystem-project2-consistency-test-1.0-SNAPSHOT-jar-with-dependencies.jar  kvstore.KVStoreConsistencyTester -server -threadNum 16 -argsPoolSize 100
+$ java -cp ./target/distributedsystem-project2-consistency-test-1.0-SNAPSHOT-jar-with-dependencies.jar  kvstore.KVStoreConsistencyTester -server -threadNum 8 -argsPoolSize 100
 ```
 
 Reference:<br>
