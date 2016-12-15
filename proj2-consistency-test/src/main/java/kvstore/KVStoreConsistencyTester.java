@@ -17,7 +17,7 @@ public class KVStoreConsistencyTester {
 //        String[] cmdServerPort = new String[] {"-server", "127.0.0.1:9091"};  // buggy
 
         String[] cmdServerPort;
-        int errorcode = 2, threadNum = 16, argsPoolSize = 200;
+        int errorcode = 2, threadNum = 8, argsPoolSize = 100;
         Options options = initOptions();
         CommandLine cmd = parseCmd(args, options);
 
