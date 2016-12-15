@@ -17,7 +17,7 @@ public class KVStoreConsistencyTester {
 //        String[] cmdServerPort = new String[] {"-server", "127.0.0.1:9091"};  // buggy
 
         String[] cmdServerPort;
-        int errorcode = 2, threadNum = 16, argsPoolSize = 30;
+        int errorcode = 2, threadNum = 16, argsPoolSize = 200;
         Options options = initOptions();
         CommandLine cmd = parseCmd(args, options);
 
@@ -31,7 +31,7 @@ public class KVStoreConsistencyTester {
             }
             errorcode = runTest(threadNum, cmdServerPort, argsPoolSize);
         } else {
-            System.err.println("Usage: ./KVStoreConsistencyTester -server <host:port> <-threadNum 20 -argsPoolSize 30>");
+            System.err.println("Usage: ./KVStoreConsistencyTester -server <host:port> <-threadNum 16 -argsPoolSize 100>");
             errorcode = 2;
         }
 
